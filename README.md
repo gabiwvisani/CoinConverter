@@ -1,7 +1,7 @@
 ## Coin Converter Application
 A Coin Converter Application é uma aplicação Java desenvolvida com Spring Boot que permite o registro de clientes e a realização de compras de moedas estrangeiras. A aplicação utiliza Feign Client para consumir uma API de cotação de moedas, permitindo calcular o valor das transações em diferentes moedas.
 
-#Funcionalidades
+# Funcionalidades
 Registro de clientes
 Listagem de todos os clientes
 Consulta de cliente por ID
@@ -9,7 +9,7 @@ Registro de compras de moedas estrangeiras
 Listagem de todas as compras
 Consulta de compra por ID
 Consumo de API externa para obtenção de cotações de moedas
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 Java
 Spring Boot
 Spring Data JPA
@@ -27,7 +27,7 @@ repository: Contém as interfaces de repositórios JPA para acessar o banco de d
 request: Contém as classes de requisição que representam os dados enviados pelos clientes.
 service: Contém as classes de serviço que encapsulam a lógica de negócios.
 CoinConverterApplication: Classe principal para inicializar a aplicação Spring Boot.
-#Endpoints
+# Endpoints
 Cliente
 Registrar Cliente
 
